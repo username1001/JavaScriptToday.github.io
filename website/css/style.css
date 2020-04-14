@@ -1,0 +1,33 @@
+html {
+  background-color: #2C2F33;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding-right: 50px;
+  font-size: 20px;
+  }
